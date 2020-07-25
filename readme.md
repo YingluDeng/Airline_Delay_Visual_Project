@@ -11,27 +11,48 @@ Data Resource Page:
 https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
 
 The Information of each Label Name:
+
 1.year -- The year of the month occured
+
 2.month -- The month for which data was collected
+
 3.carrier -- The airline code
+
 4.carrier_name -- The airline name
+
 5.airport -- The airport code
+
 6.airport_name -- The airport name
+
 7.arr_flights -- # of flights that arrived at the airport
+
 8.arr_del15 -- # of flights that arrived >= 15 minutes late
+
 9.carrier_ct -- # of flights delayed due to the carrier
+
 10.weather_ct -- # of flights delayed due to weather
+
 11.nas_ct -- # of flights delayed due to national air system
+
 12.security_ct -- # of flights delayed due to security
+
 13.late_aircraft_ct -- # flights delayed because a previous flight 
                       using the same aircraft was late
+                      
 14.arr_cancelled -- # of canceled arrivals
+
 15.arr_diverted -- # of scheduled arrivals that were diverted
+
 16.arr_delay -- Sum of the delay minutes
+
 17.carrier_delay -- Total minutes of delays due to carriers
+
 18.weather_delay -- Total minutes of delays due to weather
+
 19.nas_delay -- Total minutes of delays due to natl. air service
+
 20.security_delay -- Total minutes of delays due to security
+
 21.late_aircraft_delay -- Similar to late_aircraft_ct. The total 
                        minutes of delay due to a previous flight 
                        using the same aircraft arriving late.
